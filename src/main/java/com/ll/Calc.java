@@ -14,8 +14,10 @@ public class Calc {
                 return num1 + num2;
             case "-":
                 return num1 - num2;
-            default:
+            case "*":
                 return num1 * num2;
+            default:
+                return num1 / num2;
         }
     }
 }
